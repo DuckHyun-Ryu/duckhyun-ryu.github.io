@@ -1,7 +1,7 @@
 ---
 layout: tag-blog
-title: Algorithm
-slug: algorithm
+title: Hands on
+slug: hands on
 category: devlog
 menu: false
 order: 4
