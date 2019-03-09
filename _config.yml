@@ -2,32 +2,31 @@
 #  User configuration
 # -----------------------------------------------------------------------------
 
-title:               Aiden
+title:               Duck's sandpaper
 
 # The unique resource location of your page.
 # Set to `https://<username>.github.io` when hosting on GitHub Pages
-url:                 https://isme2n.github.io
+url:                 https://duckhyun-ryu.github.io
 
 # Set to '' when hosting a blog on GitHub Pages, ie on `//<username>.github.io`
 # Set to '/<reponame>' when using the `gh-pages` branch of a repository
 baseurl:             ""
 
 # A very short description of your page
-tagline:             가장 게으르기위해 가장 부지런한 개발자
+tagline:            
 
 # A short description of the page, used in the sidebar and as fallback for the meta description tag.
 # Markdown enabled, but don't use more than one paragraph (enforced by `>`)
 description:         >
-  게으르기 때문에 게발자.
-  글쓰는 걸 좋아하고, 디자인과 개발을 좋아한다.
+  성장하는 것을 목표로 하는 사람
 
 # This should be the same author as first entry in `_data/authors.yml`
 author:
-  name:              aiden min
-  email:             zoqozqz@gmail.com
+  name:              duckhyun
+  email:             rdh19999@gmail.com
 
 # Fallback image and color
-image:               /assets/img/nap.jpg
+image:               /assets/img/boat.jpg
 color:               '#4f86aa'
 
 # The font used for headings. Expects a string that is a valid CSS font-family value.
