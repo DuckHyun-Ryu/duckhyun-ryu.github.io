@@ -1,10 +1,10 @@
 ---
 layout : post
-title : Hackerrank 파이썬 문제 풀기-3
-subtitle : Hackerrak 파이썬 문제풀기 -3
+title : Hackerrank 파이썬 문제 풀기-7
+subtitle : Hackerrak 파이썬 문제풀기 -7
 category : practice coding
 tags : python
-order : 7
+date : 2019-03-11 18:07:00
 ---
 
 ## 문제
