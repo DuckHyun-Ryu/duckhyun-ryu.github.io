@@ -23,3 +23,10 @@ dimension = [[i,j,k] for i in range(0,x+1) for j in range(0,y+1) for k in range(
 print(dimension)
 
 ~~~
+
+1. list comprehension의 구조 [expression for 변수 in expression for ~ if 조건]
+ 여기서 expression은 list, tuple, dictionary 등 숫자가 많은 변수
+
+ 2. range(a,b)가 의미하는 숫자는 a에서 b-1까지
+
+ 3. print()의 괄호 안에 리스트, 튜플 등도 들어감.
