@@ -10,9 +10,8 @@ tags : python
 
 https://www.hackerrank.com/challenges/py-hello-world/problem
 
+## 풀이
 ~~~
-
-
 
 pring("hellow, world")
 
