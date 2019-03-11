@@ -1,7 +1,7 @@
 ---
 layout : post
-title : Hackerrank-1 
-subtitle : Hackerrank-1 
+title : Hackerrank 파이썬 문제 풀기-1
+subtitle : Hackerrak 파이썬 문제풀기 -1
 category : practice coding
 tags : python
 ---
