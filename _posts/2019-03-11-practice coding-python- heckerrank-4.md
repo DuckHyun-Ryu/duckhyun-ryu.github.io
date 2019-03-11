@@ -4,6 +4,7 @@ title : Hackerrank 파이썬 문제 풀기-4
 subtitle : Hackerrak 파이썬 문제풀기 -4
 category : practice coding
 tags : python
+order : 4
 ---
 
 ## 문제 
