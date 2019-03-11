@@ -4,7 +4,7 @@ title : Hackerrank 파이썬 문제 풀기-6
 subtitle : Hackerrak 파이썬 문제풀기 -6
 category : practice coding
 tags : python
-order : 6
+date : 2019-03-11 18:06:00
 ---
 
 ## 문제 
