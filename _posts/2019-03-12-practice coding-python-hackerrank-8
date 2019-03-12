@@ -1,0 +1,25 @@
+---
+layout : post
+title : Hackerrank 파이썬 문제 풀기-8
+subtitle : Hackerrak 파이썬 문제풀기 -8
+category : practice coding
+tags : python
+date : 2019-03-11 18:02:00
+---
+
+## 문제 
+
+https://www.hackerrank.com/challenges/find-second-maximum-number-in-a-list/problem
+
+## 풀이
+~~~
+n = int(input())
+arr =  list(map(int, input().split()))
+
+arr = list(set(arr))
+for i in arr:
+    if i == max(arr):
+        arr.remove(max(arr))
+print(max(arr))
+
+~~~
