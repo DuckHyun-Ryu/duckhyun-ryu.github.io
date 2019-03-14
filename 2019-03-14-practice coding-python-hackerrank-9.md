@@ -1,0 +1,33 @@
+---
+layout : post
+title : hackerrank 문제풀기-9
+subtitle : hackerrank 문제풀기-9
+category : practice coding
+tags : python
+date : 2019-03-14 17:23:00
+---
+
+## 문제 
+
+https://www.hackerrank.com/challenges/finding-the-percentage/problem?h_r=next-challenge&h_v=zen
+
+## 풀이 
+~~~
+if __name__ == '__main__':
+    n = int(input())
+    student_marks = {}
+    for _ in range(n):
+        name, *line = input().split()
+        scores = list(map(float, line))
+        student_marks[name] = scores
+    query_name = input()
+
+    for i,j in student_marks.items():  ## 딕셔너리를 for문으로 돌리려면 딕셔너리.items()를 리스트로 돌리면된다.
+        average = (j[0]+j[1]+j[2])/3
+        
+        if i == query_name:
+            print("%0.2f" % average) ## "%0.xf" % 를 숫자나 float 변수 앞에 붙여주면 소수점 x자리까지 표시
+~~~
+
+1. 딕셔너리의 key값과 value값을 리스트로 만들려면 딕셔너리.keys() 딕셔너리.values()를 쓰자.
+
