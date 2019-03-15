@@ -1,0 +1,41 @@
+---
+layout : post
+title : hackerrank 문제풀기 -10
+subtitle : hackerrank 문제풀기 -10
+category : practice coding
+tags : python
+date : 2019-03-15 12:35:00
+---
+
+## 문제 
+
+https://www.hackerrank.com/challenges/swap-case/problem
+
+## 풀이
+
+~~~
+def swap_case(s):   
+    string='';
+    for i in s:
+        o=ord(i)
+        if (123>o>96):string +=chr(o-32)
+        elif (91>o>64):string+=chr(o+32)
+        else:string+=i
+    return string
+
+if __name__ == '__main__':
+    s = input()
+    result = swap_case(s)
+    print(result)
+~~~
+
+1. 
+ord(문자) - 문자를 아스키 코드로 바꿈
+chr(코드) - 코드를 문자로 바굼
+
+2.알아둬야 될 아스키 코드 
+  A = 65 Z = 90  a = 97  z = 122
+
+3. string에서 추가할 때는 +=를 사용하자. (append는 문자열에서 먹히지 않음)
+
+
