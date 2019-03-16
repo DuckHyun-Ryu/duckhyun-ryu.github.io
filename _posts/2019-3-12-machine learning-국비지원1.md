@@ -11,7 +11,7 @@ date : 2019-03-12 15:00:00
 1. 쥬피터 경로 바꾸는 방법
 
 a. jupyter notebook의 속성에 들어가 시스템의 경로 제일 뒤에 %로 이루어진 경로를 지운다.
-b. jupyter notebook --generate-config을 cmd에 쳐서 폴더를 만든다.
+b. jupyter notebook - -generate-config을 cmd에 쳐서 폴더를 만든다.
 c. config 파일의 261줄의 c.NotebookApp.notebook_dir = '' 에서 따음표 사이에 내가 넣고 싶은 경로를 저장한다. 
    만약 주석이 있다면 주석을 지운다. 
 d. 쥬피터 노트북을 다시 실행해서 확인한다.
