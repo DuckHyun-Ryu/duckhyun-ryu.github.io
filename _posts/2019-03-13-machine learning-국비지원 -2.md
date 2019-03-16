@@ -9,23 +9,23 @@ date : 2019-03-13 17:30:00
 
 
 1.수정 가능한 자료형 (mutable): list, set dic
-  
+
   수정 불가능한 자료형(immutable) : int, bool, float 등
 
 
 2. 포맷팅
-   
+
    ex) print("%s결과 : %d%%+%d%% =%d" %("덧셈",3,4,3+4))
-       
+
        print('{0}결과: {1}%+{1}% = {2}'.format('덧셈', 3,  3+3))
-   
+
    두 번째 예시가 python에서 가지고 있는 장점
-   
+
    같은 것을 쓰고 싶을 때 같은 {같은 숫자}를 넣으면 된다.
 
 3. 문자열과 관련된 함수
 
-a. count 
+a. count
 
 구조 : 대상.count('찾고자 하는 것')
 
@@ -57,8 +57,8 @@ d. join
 
 4. 쥬피터 노트북 활용법
 
-a. tab키 누르면 내가 활용할 수 있는 함수의 종류를 확인 할 수 있다. 
- 
+a. tab키 누르면 내가 활용할 수 있는 함수의 종류를 확인 할 수 있다.
+
 
 5. 복사
 
@@ -81,3 +81,33 @@ rint(a)
 
 이것을 깊은 복사라고 한다.
 
+6. try except 구문
+
+try except는 오류가 발생했을 때 그 오류를 무시하고 넘어가라는 의미이다.
+if와 for과 똑같이 :을 사용하고 들여쓰기를 하면 된다.
+
+태윤이형의 문제
+1000원을 넣었을 때 숫자만 써달라는 메시지를 나오게 해라.
+
+~~~
+coffee =10
+while True :
+    try:
+    money = int(input("money: "))
+    if money ==300 :
+        print("coffee")
+        coffee = coffee-1
+    elif money >300 :
+         print("coffee and change %d" % (money-300))
+    else :
+        print("no coffee money back")
+        print("remainder coffee is %d" %coffee)
+    if not coffee :
+        print("out of order")
+        break
+    except:
+        print('숫자만 써주세요')
+~~~
+
+a. ''표를 하지 않은 것은 string도 뭣도 아니다.
+b. except에는 무시하는 에러를 지정해 줄 수도 있다.
