@@ -1,0 +1,42 @@
+---
+layout : post
+title : Hackerrank 파이썬 문제 풀기-14
+subtitle : Hackerrak 파이썬 문제풀기 -14
+category : practice coding
+tags : python
+date : 2019-03-16 17:28:00
+---
+
+## 문제
+
+https://www.hackerrank.com/challenges/string-validators/problem
+
+## 풀이
+
+~~~
+if __name__ == '__main__':
+    s = input()
+
+result = [False] * 5
+
+for i in s:
+  if i.isalnum():
+    result[0] = True
+  if i.isalpha():
+    result[1] = True
+  if i.isdigit():
+    result[2] = True
+  if i.islower():
+    result[3] = True
+  if i.isupper():
+    result[4] = True
+
+
+
+list(map(print,result))
+~~~
+
+1. list를 활용해서 넣어 놓고 출력하자.(괜찮군)
+2. map을 이용해서 출력가능 list(map())을 하면 for i in s:
+                                              print(i)
+   를 줄일 수 있음.
