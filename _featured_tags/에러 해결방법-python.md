@@ -1,7 +1,7 @@
 ---
 layout: tag-blog
-title: python
-slug: python
+title: Python
+slug: Python
 category: 에러 해결방법
 menu: false
 order: 2
