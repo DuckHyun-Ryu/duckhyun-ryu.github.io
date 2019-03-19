@@ -1,7 +1,7 @@
 ---
 layout : post
-title : 19.3.13 국비지원 알게 된 것
-subtitle : 19.3.13 국비지원 알게 된 것
+title : 국비지원 알게 된 것-1
+subtitle :  국비지원 알게 된 것-1
 category : machine learning
 tags : 국비지원
 date : 2019-03-12 15:00:00
