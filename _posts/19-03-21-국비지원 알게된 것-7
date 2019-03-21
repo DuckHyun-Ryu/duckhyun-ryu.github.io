@@ -1,0 +1,152 @@
+---
+layout : post
+title : 국비지원 알게된 것 -7
+subtitle : 국비지원 알게된 것-7
+category : machine learning
+tags : 국비지원
+date : 2019-03-20 18:00:00
+---
+
+1. 재귀함수
+
+
+2.객체지향언어
+
+a. 상속성(ingeritance)
+
+b. 다형성(polymorphism)
+
+c. 캡슐화(encapsulation)
+
+이 세가지는 만족해야 객체지향언어라고 함.
+
+3. class 
+
+a. 함수랑 구분하기 위해서 class의 이름의 처음 문자는 대문자로 한다.
+
+구조 
+
+class 클래스이름():
+
+~~~    
+  def 매서드1(sef, 변수1, 변수2):
+      self.변수1 = 변수1
+      self.변수2 = 변수2
+
+  def sum(self): 
+      ...
+~~~
+
+
+4.객체선언
+
+a = 클래스이름()
+
+a.매서드1(변수1,변수2) -> 객체변수에 저장
+
+a.sum() 하면 변수1 변수2로 sum이 됨
+
+
+5. 생성자
+
+기본적으로 모든 class에는 생성자를 가지고 있다.
+
+def __init__(self,변수1,...)
+
+이렇게 설정하면 초기에 클래스를 설정할 때 초기변수들을 정해주지 않으면 클래스가 선언되지 않는다.
+
+
+
+6. isistance(객체1, 클래스1)
+
+   객체1이 클래스변수의 인스턴스이면 TURE
+   객체1이 클래스1의 인스턴스가 아니면 Flase
+
+
+7. 소멸자 
+  
+  a. __del__ 이라고 정의한다.
+  
+  b. 객체가 소멸될 때 호출되는 매서드
+
+
+8. 파이썬에서는 클래스 안에 없던 변수를 사용하면 에러가 나지만 파이썬에서는 클래스 안에 없던 변수를 사용해도 에러가 나지 않는다.
+
+
+9. 파이썬에서는 언더바(_)를 사용해서 바로 전에 처리했던 것을 불러낼 수 있다.
+
+
+10. stactic이랑 global 변수 활용 공부해야돼
+
+
+11.클래스에서 변수를 지정할 때 __변수 = blabla라고 하면 이는 직접적으로는 사용할 수 없다.
+   하지만 매서드를 이용해서는 접근 가능
+
+~~~
+class PrivateTest:
+    str1 = '안녕하세요'
+    __str2 = '홍길동입니다.' ## __두 개는 외부로 공개하지 않겠다라는 뜻
+    
+    def first(self):
+        print('first입니다.', self.__str2)  ## 매서드를 이용하면 사용가능
+        
+    def second(self):
+        print('second입니다.+')
+        
+obj1 = PrivateTest()
+print(obj1.str1)
+obj1.first()
+~~~
+
+12. global 변수활용
+
+~~~
+total=0
+
+class Employee:
+    def __init__(self,number,name,salary,hobby):
+        self.number=number
+        self.name=name
+        self.salary=salary
+        self.hobby=hobby
+        global total
+        total+=1
+
+    def display(self):
+        print("사번 : {}".format(self.number))
+        print("이름 : {}".format(self.name))
+        print("급여 : {}".format(self.salary))
+        print("취미 : {}".format(self.hobby))
+
+    def getCount(self):
+        return total
+    
+    def setSalary(self,new_salary):
+        self.salary=new_salary
+        
+    def appendHobby(self,new_hobby):
+        for i in new_hobby:
+            self.hobby.append(i)
+~~~
+
+
+하나의 클래스가 호출될 때마다 하나씩 올라가야 되므로 total 변수를 전역변수로 지정하고
+생성자가 생성될때마다 하나씩 total을 올림.
+
+13. class static 변수
+ 
+사용법 
+class 내에서 변수를 사용할 때 클래스이름.변수이름이라고 선언할 수 있다.
+__init__ 매서드에 추가하면 객체가 할당될 때마다 이 변수를 사용할 수 있다.
+객체에서 접근하는 것이 아니기 때문에 만약 이 변수를 사용하고 싶다면 매서드에 self는 치지 않고 
+사용한다. 
+
+~~~
+class Employee:
+
+   cnt = 0
+   def getcount()
+      return employee.cnt
+
+employee.getcount
+~~~
