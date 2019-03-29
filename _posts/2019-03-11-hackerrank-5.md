@@ -7,7 +7,7 @@ tags : python
 date : 2019-03-11 18:05:00
 ---
 
-## 문제 
+## 문제
 
 https://www.hackerrank.com/challenges/python-loops/problem
 
