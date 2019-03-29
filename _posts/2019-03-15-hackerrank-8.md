@@ -1,10 +1,10 @@
 ---
 layout : post
-title : hackerrank 문제풀기 -12
-subtitle : hackerrank 문제풀기 -12
+title : hackerrank 문제풀기 -8
+subtitle : hackerrank 문제풀기 -8
 category : practice coding
 tags : python
-date : 2019-03-15 14:06:00
+date : 2019-03-11 20:00:00
 ---
 
 ## 문제

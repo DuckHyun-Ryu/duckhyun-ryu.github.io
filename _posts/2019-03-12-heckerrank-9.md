@@ -1,13 +1,13 @@
 ---
 layout : post
-title : Hackerrank 파이썬 문제 풀기-8
-subtitle : Hackerrak 파이썬 문제풀기 -8
+title : Hackerrank 파이썬 문제 풀기-9
+subtitle : Hackerrak 파이썬 문제풀기 -9
 category : practice coding
 tags : python
 date : 2019-03-12 18:10:00
 ---
 
-## 문제 
+## 문제
 
 https://www.hackerrank.com/challenges/find-second-maximum-number-in-a-list/problem
 
