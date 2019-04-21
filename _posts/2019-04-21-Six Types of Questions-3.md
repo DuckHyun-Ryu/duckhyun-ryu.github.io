@@ -10,17 +10,12 @@ date : 2019-04-21 19:31:00
 
 ### 데이터 사이언스의 첫번째 시작 질문에는 6가지 타입이 있다.
 
-(1) Descriptive
-
-(2) Exploratory
-
-(3) Inferential
-
-(4) Predictive
-
-(5) Casual
-
-(6) Mechanistic
+(1) Descriptive  
+(2) Exploratory  
+(3) Inferential  
+(4) Predictive  
+(5) Casual  
+(6) Mechanistic  
 
 
  (1) Descriptive Analysis
