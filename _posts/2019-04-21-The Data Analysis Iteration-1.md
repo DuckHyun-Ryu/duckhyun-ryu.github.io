@@ -3,7 +3,7 @@ layout : post
 title : 1.The Data Analysis Iteration
 subtitle : 1.The Data Analysis Iteration
 category : 강의 정리
-tags : Managing Data Ananlysis
+tags : Managing Data Analysis
 date : 2019-04-21 18:04:00
 ---
 
