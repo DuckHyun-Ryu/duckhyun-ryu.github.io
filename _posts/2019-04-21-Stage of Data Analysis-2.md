@@ -10,9 +10,13 @@ date : 2019-04-21 18:58:00
 ## 데이터 분석의 5단계
 
 (1) Stating Question
+
 (2) Exploratory Data Analysis
+
 (3) Formal Modeling
+
 (4) Interpretation
+
 (5) Communication
 
 첫번째는 문제를 정의하는 단계

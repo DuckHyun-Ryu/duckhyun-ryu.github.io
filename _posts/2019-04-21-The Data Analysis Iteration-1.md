@@ -10,7 +10,9 @@ date : 2019-04-21 18:04:00
 ## 데이터 분석에는 3가지 파트가 있다.
 
 (1) setting expectations
+
 (2) collecting information /Data
+
 (3) reacting to data  /revising expectations
 
 
