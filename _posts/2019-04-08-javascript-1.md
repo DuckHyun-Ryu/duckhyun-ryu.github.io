@@ -8,15 +8,15 @@ date : 2019-04-08 18:00:00
 ---
 html안에서 코드를 작성하고 싶을 때 사용하는 언어
 
-(1) 스크립트 언어 : perl, vbscript,...
-(2) 객체기반언어
-(3) 사용방법
-a. inline style
--태그안에서 작성
-b. internal style
--페이지내에서 작성
-c. external style
--별도의 파일로 작성(.js)
+(1) 스크립트 언어 : perl, vbscript,...  
+(2) 객체기반언어  
+(3) 사용방법  
+a. inline style  
+-태그안에서 작성  
+b. internal style  
+-페이지내에서 작성  
+c. external style  
+-별도의 파일로 작성(.js)  
 
 
 ### inline 예시
