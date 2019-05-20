@@ -1,4 +1,3 @@
-
 ---
 layout : post
 title : 파이썬 중급 1- args와 kwargs
@@ -27,15 +26,15 @@ def test_var_args(f_arg, *argv):
     print('첫 번째 인자:', f_arg)
     for arg in argv:
         print('*argv의 다른인자', arg)
-        
+
 test_var_args('야숩', 'python ', '달걀', 'test')
 ```
 
     첫 번째 인자: 야숩
-    *argv의 다른인자 python 
+    *argv의 다른인자 python
     *argv의 다른인자 달걀
     *argv의 다른인자 test
-    
+
 
 위의 결과를 보면 야숩의 f_arg의 변수로 야숩이 들어왔고 나머지 python, 달걀, test는 \*argv 매개변수의 것 입니다.  
 이렇게 몇 개의 인자가 들어올지 모를 때 사용하는 것이 \*args입니다.
@@ -43,21 +42,21 @@ test_var_args('야숩', 'python ', '달걀', 'test')
 ## **kwargs의 사용법
 
 \*\*kwargs는 키워드화 된 가변 갯수의 인자들을 함수에 보낼 때 사용합니다.  
-dict가 가장 많이 쓰이는 예 중 하나입니다. 
+dict가 가장 많이 쓰이는 예 중 하나입니다.
 
 
 ```python
 def greet_me(**kwargs):
     if kwargs is not None:
-        for key, value in kwargs.items(): 
-            print ("%s == %s" % (key, value)) 
+        for key, value in kwargs.items():
+            print ("%s == %s" % (key, value))
 greet_me(name = 'yasoob', nickname = 'goldcuking')
 
 ```
 
     nickname == goldcuking
     name == yasoob
-    
+
 
 이렇게 가변 갯수이긴 한데 그 변수가 키워드화 된 변수일 때 **kwargs를 사용합니다.
 
@@ -71,7 +70,7 @@ def test_args_kwargs(arg1, arg2, arg3):
         print ("인자1:", arg1)
         print ("인자2:", arg2)
         print ("인자3:", arg3)
-        
+
 ```
 
 그리고 튜플 a와 딕트 b를 정의하자
@@ -92,7 +91,7 @@ test_args_kwargs(*a)
     인자1: two
     인자2: 3
     인자3: 5
-    
+
 
 
 ```python
@@ -106,7 +105,7 @@ test_args_kwargs(**b)
 
     <ipython-input-17-fa086c94f831> in <module>
     ----> 1 test_args_kwargs(**b)
-    
+
 
     TypeError: test_args_kwargs() got an unexpected keyword argument '인자2:'
 
@@ -122,5 +121,3 @@ some_func(fargs, *args, **kwargs)
 ```
 
 # 언제 사용하나요??
-
-
