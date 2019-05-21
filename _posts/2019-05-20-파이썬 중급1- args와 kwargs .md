@@ -119,5 +119,3 @@ test_args_kwargs(**b)
 ```python
 some_func(fargs, *args, **kwargs)
 ```
-
-# 언제 사용하나요??
