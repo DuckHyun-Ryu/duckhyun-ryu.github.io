@@ -11,7 +11,7 @@ date : 2019-05-22 10:01:00
 
 deque는 double_ended queue의 줄임말로, 앞과 뒤에서 데이터를 처리할 수 있는 queue형 자료구조를 의미한다.  
 
-![20190522_100314.png](attachment:20190522_100314.png)
+![deque 이미지](/assets/deque%20이미지_sqw0cm7pl.png)
 
 # 사용법
 
