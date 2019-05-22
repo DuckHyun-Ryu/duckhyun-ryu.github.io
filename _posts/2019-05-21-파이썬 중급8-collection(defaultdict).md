@@ -1,4 +1,3 @@
-
 ---
 layout : post
 title : 파이썬 중급 8-collection(defaultdict)
@@ -20,7 +19,7 @@ date : 2019-05-21 13:57:00
 
 # defaultdict
 
-dict와 유사한 defaultdict의 가장 dict와 가장 큰 차이점은 없는 지정되지 않은 key를 호출하면 해당 key의 value가 사용자가 설정한 자료형의 값으로 나오게 됩니다. 
+dict와 유사한 defaultdict의 가장 dict와 가장 큰 차이점은 없는 지정되지 않은 key를 호출하면 해당 key의 value가 사용자가 설정한 자료형의 값으로 나오게 됩니다.
 예를 하나 들어보겠습니다.
 
 
@@ -143,7 +142,7 @@ ndict
 그리고 만약에 key가 설정이 되어 있다면 이제 해당 key로 다시 접근을 하므로 위와 같이 결과값이 나오게 된다.  
 
 그런데 결과값을 보면 hodong이 지금 2번 중복되어서 나와 있다.  
-이 때 해결할 수 있는 것이 set이다. 
+이 때 해결할 수 있는 것이 set이다.
 
 
 ```python
