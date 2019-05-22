@@ -1,4 +1,3 @@
-
 ---
 layout : post
 title : 파이썬 중급12-collections(namedtuple)
@@ -10,7 +9,7 @@ date : 2019-05-22 10:23:00
 
 # 무엇?
 
-이름에서 알 수 있듯이 인덱스로만 접근할 수 있는 tuple과는 다르게 key값으로 접근가능하도록 제공하는 tuple이다. 
+이름에서 알 수 있듯이 인덱스로만 접근할 수 있는 tuple과는 다르게 key값으로 접근가능하도록 제공하는 tuple이다.
 
 # 사용법
 
@@ -42,7 +41,7 @@ type(Person)
 
 
 type함수를 쓴 결과를 보시면 Person자체가 type이라는 것을 알 수 있습니다.  
-여기서 이제 Person type의 변수들을 지정해 보도록 하겠습니다. 
+여기서 이제 Person type의 변수들을 지정해 보도록 하겠습니다.
 
 
 ```python
@@ -91,7 +90,7 @@ P1 = P1._replace(name = 'Neo')
 P1 = P1._replace(age = 27)
 P1 = P1._replace(gender = '여')
 P1
-## inplace가 안되므로 새로 지정해 주어야한다. 
+## inplace가 안되므로 새로 지정해 주어야한다.
 ```
 
 
@@ -127,7 +126,7 @@ getattr은 namedtuple()의 메소드는 아니지만, field_names로 namedtuple(
 ```python
 Person  = namedtuple('Person', 'name age gender')
 P1 = Person('Tom',24, '남' )
-getattr(P1, 'name') ##name field의 값을 추출해라 
+getattr(P1, 'name') ##name field의 값을 추출해라
 ```
 
 
@@ -139,7 +138,7 @@ getattr(P1, 'name') ##name field의 값을 추출해라
 
 ### dict에서 namedtuple로 변환할 때 **
 
-**는 dict를 namedtyple()로 변환해준다. 
+**는 dict를 namedtyple()로 변환해준다.
 
 
 ```python
@@ -153,5 +152,3 @@ P2
 
 
     Person(name='Tom', age=24, gender='남')
-
-

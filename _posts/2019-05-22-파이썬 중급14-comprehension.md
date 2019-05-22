@@ -1,4 +1,3 @@
-
 ---
 layout : post
 title : 파이썬 중급14-comprehension
@@ -43,7 +42,7 @@ a
 
 
 
-### 중복표현 
+### 중복표현
 comprehension은 for과 if를 몇 번이고 반복할 수 있습니다.  
 
 저녁으로 먹을 메뉴 '쌈밥', '치킨', '피자' 중 하나와 후식으로 먹을 '사과', '아이스크림', '커피'를 정할 때 가능한 경우의 수를 뽑는 코드를 컴프리헤션으로 작성해보겠습니다.  
@@ -68,7 +67,7 @@ comprehension은 for과 if를 몇 번이고 반복할 수 있습니다.
 
 
 
-이렇게 뒤에 있는 for이 앞에 있는 for안에 걸리는 이중 for문이라고 생각하시면 편할 것 같습니다. 
+이렇게 뒤에 있는 for이 앞에 있는 for안에 걸리는 이중 for문이라고 생각하시면 편할 것 같습니다.
 
 if도 똑같이 중복해서 여러가지 조건을 걸 수 있습니다.   
 1부터 10중에 5보다도 작고 짝수인 값들을 리스트에 담아봅시다.  
@@ -85,14 +84,14 @@ if도 똑같이 중복해서 여러가지 조건을 걸 수 있습니다.
 
 
 
-x가 5보다도 작고 짝수인 값들을 리스트에 잘 담아줍니다. 
+x가 5보다도 작고 짝수인 값들을 리스트에 잘 담아줍니다.
 
 # set comprehension
 
 list comprehension에서 대괄호를 중괄호로 바꾼다면 set comprehension이 됩니다.  
-이는 따로 다루지는 않겠습니다. 
+이는 따로 다루지는 않겠습니다.
 
-# dict comprehension 
+# dict comprehension
 
 set comprehension에서 key:value의 형태로 쓰게 되면 dict comprehension이 됩니다.  
 
