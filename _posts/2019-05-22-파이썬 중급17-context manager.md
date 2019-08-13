@@ -1,7 +1,7 @@
 ---
 layout : post
-title : 파이썬 중급18-context manager
-subtitle : 파이썬 중급18-context manager
+title : 파이썬 중급17-context manager
+subtitle : 파이썬 중급17-context manager
 category : 프로그래밍 언어 공부
 tags : python
 date : 2019-05-22 16:12:00
@@ -58,8 +58,8 @@ with open('memo.txt', 'r') as f:
 
 # with구문을 쓸 수 있게 만드는 magic methods
 
-magicmethods란 클래스의 __init__메소드와 같이 특정한 기능을 하도록 미리 설계된 메소드를 의미합니다.  
-with구문을 사용하기 위해서는 클래스에 __enter__ 과 __exit__이라는 magic methods를 정희해주면 됩니다.  
+magicmethods란 클래스의 \_\_init\_\_메소드와 같이 특정한 기능을 하도록 미리 설계된 메소드를 의미합니다.  
+with구문을 사용하기 위해서는 클래스에 \_\_enter\_\_ 과 \_\_exit\_\_이라는 magic methods를 정희해주면 됩니다.  
 
 - \_\_enter\_\_ : with구문에 진입하는 시점에 자동으로 호출되는 메소드  
 - \_\_exit\_\_ : with구문을 빠져나오기 직전에 호출되는 메소드 type, value, traceback은 with문을 빠져나오기 전에 예외가 발생했을 때의 정보를 나타냄.
@@ -114,4 +114,4 @@ def blahblah():
 with blahblah as resource
 ```
 
-이런식으로 함수위에 contextmanager decorator를 이용하면 with구문을 사용할 수 있다.  
+이런식으로 함수위에 contextmanager decorator를 이용하면 with구문을 사용할 수 있습니다.  
