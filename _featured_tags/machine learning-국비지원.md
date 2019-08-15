@@ -4,5 +4,5 @@ title: 국비지원
 slug: 국비지원
 category: machine learning
 menu: false
-order: 4
+order: 1
 ---

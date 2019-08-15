@@ -1,8 +1,8 @@
 ---
 layout: tag-blog
-title: sql
-slug: sql
+title: html & CSS
+slug: html & CSS
 category: 프로그래밍 언어 공부
 menu: false
-order: 3
+order: 4
 ---

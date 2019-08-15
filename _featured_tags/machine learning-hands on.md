@@ -4,5 +4,5 @@ title: Hands on
 slug: hands on
 category: machine learning
 menu: false
-order: 4
+order: 2
 ---
