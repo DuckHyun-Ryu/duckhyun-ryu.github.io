@@ -3,7 +3,7 @@ layout : post
 title : 3.Six Types of Questions
 subtitle : 3.Six Types of Questions Iteration
 category : 강의 정리
-tags : Managing data analysis
+tags : Managing_data_analysis
 date : 2019-04-21 19:31:00
 ---
 

@@ -3,7 +3,7 @@ layout : post
 title : 2.Stage of Data Analysis
 subtitle : 2.Stage of Data Analysis
 category : 강의 정리
-tags : Managing data analysis
+tags : Managing_data_analysis
 date : 2019-04-21 18:58:00
 ---
 
