@@ -1,7 +1,7 @@
 ---
 layout: tag-blog
-title: Managing Data Analysis
-slug: Managing Data Analysis
+title: Managing data analysis
+slug: Managing data analysis
 category: 강의 정리
 menu: false
 order: 1
