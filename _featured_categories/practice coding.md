@@ -6,5 +6,5 @@ menu: true
 submenu: true
 order: 6
 description: >
-  코딩 공부를 하는 곳입니다.
+  알고리즘 문제를 푸는 곳입니다.
 ---
