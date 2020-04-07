@@ -2,7 +2,7 @@
 layout : post
 title : 4828. [파이썬 S/W 문제해결 기본] 1일차 - min max
 subtitle : 4828. [파이썬 S/W 문제해결 기본] 1일차 - min max
-category : practice coding
+category : 코딩문제모음
 tags : python
 date : 2019-09-03 12:34:00
 ---

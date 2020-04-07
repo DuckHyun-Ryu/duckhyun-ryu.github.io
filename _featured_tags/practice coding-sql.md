@@ -2,7 +2,7 @@
 layout: tag-blog
 title: sql
 slug: sql
-category: practice coding
+category: 코딩문제모음
 menu: false
 order: 2
 ---

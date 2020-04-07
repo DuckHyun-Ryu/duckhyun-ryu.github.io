@@ -2,7 +2,7 @@
 layout : post
 title : hackerrank 문제풀기 -8
 subtitle : hackerrank 문제풀기 -8
-category : practice coding
+category : 코딩문제모음
 tags : python
 date : 2019-03-11 20:00:00
 ---

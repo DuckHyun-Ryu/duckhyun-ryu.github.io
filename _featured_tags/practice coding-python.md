@@ -2,7 +2,7 @@
 layout: tag-blog
 title: Python
 slug: python
-category: practice coding
+category: 코딩문제모음
 menu: false
 order: 1
 ---

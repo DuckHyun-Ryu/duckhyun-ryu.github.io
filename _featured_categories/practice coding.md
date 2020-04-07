@@ -1,7 +1,7 @@
 ---
 layout: list
-title: Practice coding
-slug: practice coding
+title: 코딩문제모음
+slug: 코딩문제모음
 menu: true
 submenu: true
 order: 4
